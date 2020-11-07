@@ -136,7 +136,7 @@ data = data.replace(to_replace='female', value=1)
 
 ## The comparison of four modules
 
-<img src = "image/comparison2.png" height="250" width="690">
+<img src = "image/Comparison2.png" height="250" width="690">
 
 As shown in the picture, we can see that the decision tree has the most accuracy prediction among the four modules.However, I believe that it can be more accuracy by optimizing the code continously.  
 From the table, we may also draw the conclusion that LogisticRegression has a better Macro Avg and Weight avg among SGDClassifier and KNeighborsClassifier.It has a better Precision(TP/TP+FP), Recall(TP)/(TP+FN) and F1 score, which means that LogisticRegression more accurate to predict the result is survived.  
