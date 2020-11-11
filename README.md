@@ -87,15 +87,15 @@ so the final code that make the accuracy of predictions more than 80% is:
             if passenger['Age'] < 10 :
                 predictions.append(1)
             else:
-                predictions.append(0)
-        else:
-            if passenger['SibSp'] >=3:
-                predictions.append(0)
-            else:
                 if passenger['Parch'] > 3 :
                     predictions.append(0)
                 else:
                     predictions.append(1)
+        else:
+            if passenger['SibSp'] >=3:
+                predictions.append(0)
+            else:
+                predictions.append(1)
     
       Return our predictions
     return pd.Series(predictions)
