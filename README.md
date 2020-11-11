@@ -16,7 +16,7 @@ This project requires **Python** and the following Python libraries installed:
 
 ## Introduction of the project
 
-The backgroud of this project is In 1912, the ship RMS Titanic struck an iceberg on its maiden voyage and sank, resulting in the deaths of most of its passengers and crew. Our project's objective is to figure out which features influnce the prediction wheather someone survived or did not survive. In this project, we will use a simple machine learning model,the decision tree, to predict the survival situation.To make the prediction more accurate, we test a series of features and conditions to split the data on to obtain an outcome prediction accuracy of at least 80%,and moreover,answer the 5 Questions and 1 Think.
+The backgroud of this project is In 1912, the ship RMS Titanic struck an iceberg on its maiden voyage and sank, resulting in the deaths of most of its passengers and crew. Our project's objective is to figure out which features influnce the prediction wheather someone survived or did not survive. In this project, we will use four simple machine learning model,the decision tree, LogisticRegression, SGDClaiffier & KNN algoritnms to predict the survival situation.To make the prediction more accurate, we test a series of features and conditions to split the data on to obtain an outcome prediction accuracy of at least 80%,and moreover,answer the 5 Questions and 1 Think.
 
 # Method1 Decision Tree
 
